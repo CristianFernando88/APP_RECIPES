@@ -6,7 +6,7 @@ export default function RecipesCategory(){
     const pathUrl = `/reciperover/recipes/?categories=${id}`
     return(
         <>
-            <h1>Categoria</h1>
+            <h1 className="title has-background-primary">Categoria</h1>
             <Recipes
                 urlPath={pathUrl} 
             />
