@@ -83,7 +83,7 @@ const Router = createBrowserRouter([
         element: <Login />,
     },
 ],{
-    basename: "/app_recipes/",
+    basename: "/APP_RECIPES/",
 });
 
 export { Router };
