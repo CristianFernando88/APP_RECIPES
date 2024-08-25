@@ -82,6 +82,8 @@ const Router = createBrowserRouter([
         path: "login",
         element: <Login />,
     },
-]);
+],{
+    basename: "/app_recipes/",
+});
 
 export { Router };
